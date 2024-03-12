@@ -163,3 +163,48 @@ body {
     border: 2px solid var(--cor-principal);
     color: var(--cor-fundo);
 }
+
+@media (max-width:1200px) {
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 5%;
+        height: 100vh;
+    }
+
+    .principal {
+        background-image: url(assets/Background.png);
+        background-size: 170%;
+        background-position: right top;
+    }
+
+    .secundario__imagem {
+        width: 25em;
+    }
+
+    .descricao__texto {
+        width: 20em;
+    }
+
+    .dispositivos {
+        margin-top: 50vh;
+    }
+
+    .dispositivos__titulo {
+        padding: 1em;
+    }
+
+    .dispositivos__lista {
+        flex-direction: column;
+        margin: 0 0 5em 0;
+    }
+
+    .rodape__lista {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .rodape__logo {
+        margin-bottom: 2em;
+    }
+}
